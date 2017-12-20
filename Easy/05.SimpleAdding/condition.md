@@ -1,25 +1,3 @@
 # Challenge
-Using the Ruby language, have the function FirstReverse(str) take the str parameter being passed and return the string in reversed order. For example: if the input string is "Hello World and Coders" then your program should return the string sredoC dna dlroW olleH
+Have the function SimpleAdding(num) add up all the numbers from 1 to num. For example: if the input is 4 then your program should return 10 because 1 + 2 + 3 + 4 = 10. For the test cases, the parameter num will be any number from 1 to 1000.
 
-# Sample Test Cases
-```{r, engine='bash', count_lines}
-Input:"coderbyte"
-Output:"etybredoc"
-
-Input:"I Love Code"
-Output:"edoC evoL I"
-
-def FirstReverse(input)
-	l = input.length - 2
-	result = ""
-
-	(0..l).each do |i|
-		result << input[l-i]
-	end
-
-	return result
-
-end
-
-puts FirstReverse(STDIN.gets)
-```
