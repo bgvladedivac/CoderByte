@@ -11,7 +11,7 @@
 		end	
 	end
 
-	return longest
+	longest
 end
 
 puts(LongestWord(STDIN.gets))

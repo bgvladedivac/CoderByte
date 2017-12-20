@@ -1,5 +1,4 @@
 ﻿def FirstReverse(str)
-	puts str.length
 	l = str.length - 1
 	result = ""
 
@@ -7,7 +6,7 @@
 		result << str[l - i]
 	end
 
-	return result
+	result
 end
 
 puts FirstReverse(STDIN.gets)

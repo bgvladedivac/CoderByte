@@ -8,18 +8,4 @@ Output:"etybredoc"
 
 Input:"I Love Code"
 Output:"edoC evoL I"
-
-def FirstReverse(input)
-	l = input.length - 2
-	result = ""
-
-	(0..l).each do |i|
-		result << input[l-i]
-	end
-
-	return result
-
-end
-
-puts FirstReverse(STDIN.gets)
 ```
