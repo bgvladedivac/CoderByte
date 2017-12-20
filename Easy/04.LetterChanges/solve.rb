@@ -2,7 +2,7 @@
 	# 1. Map each char to the result
 	
 	alphabet = ('a'..'z').to_a
-	result = str.chars.map do |ch, idx|
+	result = str.chars.map do |ch|
 		if alphabet.include?(ch) and ch != 'z'
 			next_letter = alphabet[alphabet.index(ch)+1]
 			'aeiou'.include?(next_letter) ? next_letter.upcase : next_letter
